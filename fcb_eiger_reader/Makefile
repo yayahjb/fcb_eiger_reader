@@ -45,7 +45,7 @@ cbf_register_filters.o: cbf_register_filters.c
 all : $(FCBERTEST)
 
 archive : 
-	tar cvfz fcb_eiger_reader${build_date}.tar.gz  README.md *.f *.c *.h5
+	tar cvfz fcb_eiger_reader${build_date}.tar.gz  LICENSE README.md *.f *.c *.h5
 
 clean :
 	@-rm -f *.o *.mod
